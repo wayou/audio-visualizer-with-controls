@@ -1,0 +1,22 @@
+
+body {
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+a{
+    color:yellow;
+}
+.bar-wrapper {
+    height: 300px;
+    position: relative;
+}
+.bar {
+    position: relative;
+    bottom: 0;
+    width: 5px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 5px;
+    border-bottom: 3px solid #fff;
+}
