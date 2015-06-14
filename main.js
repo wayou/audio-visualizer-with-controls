@@ -1,4 +1,5 @@
-/* * audio visualizer with html5 audio element
+/* * 
+ * audio visualizer with html5 audio element
  *
  * v0.1.0
  * 
