@@ -16,7 +16,7 @@
 
 window.AudioContext = window.AudioContext || window.webkitAudioContext || window.mozAudioContext;
 
-window.onload = function() {
+var start = function() {
     var audio = document.getElementById('audio');
     var ctx = new AudioContext();
     var analyser = ctx.createAnalyser();
@@ -71,3 +71,7 @@ window.onload = function() {
     renderFrame();
     // audio.play();
 };
+
+audio.onplay = function(){
+    start();
+}
