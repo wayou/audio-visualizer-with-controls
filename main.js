@@ -69,5 +69,5 @@ window.onload = function() {
         requestAnimationFrame(renderFrame);
     }
     renderFrame();
-    audio.play();
+    // audio.play();
 };
